@@ -1,0 +1,9 @@
+Thread synchronization with mutexes in C
+
+1. What is a mutex?
+	- Mutual exclusion, nothing more than a flag that can be set or unset
+2. What problem does mutexes solve?
+	- The unpredictable behavior and raise conditions resulting from multiple threads.
+3. What are deadlocks and how to avoid them?
+	- Deadlocks will occur when the thread which acquire the lock, attempts to lock the mutex again.
+	- Best way to avoid is to pay attention when you lock a mutex.
